@@ -1,0 +1,25 @@
+{
+  "name": "knight-tsdev",
+  "version": "1.0.0",
+  "description": "单纯用于Typescript开发",
+  "zipTarget": "zip",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "cross-env NODE_ENV=dev gulp watch",
+    "prod": "cross-env NODE_ENV=prod npm run start",
+    "beta": "cross-env NODE_ENV=beta npm run start",
+    "test": "cross-env NODE_ENV=dev npm run start",
+    "pm2": "pm2 start project.json",
+    "ts": "tsc",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}

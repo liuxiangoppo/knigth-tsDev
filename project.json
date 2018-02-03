@@ -1,0 +1,10 @@
+[
+    {
+        "name": "witparking-op-api",
+        "script": "dist/bin/Startup.js",
+        "cwd": "/",
+        "env": {
+            "NODE_ENV": "prod"
+        }
+    }
+]
