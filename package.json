@@ -5,7 +5,7 @@
   "description": "knight脚手架系列、松立、慧停车研发中心使用Typescript开发脚手架",
   "zipTarget": "zip",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/App.js",
     "dev": "cross-env NODE_ENV=dev gulp watch",
     "prod": "cross-env NODE_ENV=prod npm run start",
     "beta": "cross-env NODE_ENV=beta npm run start",

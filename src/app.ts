@@ -1,3 +1,1 @@
-import KnightStaticServer from "./KnightStaticServer";
-
-(new KnightStaticServer()).start();
+console.log("hello world");
